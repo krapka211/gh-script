@@ -12,7 +12,6 @@
   FIX: Stagger animations on wood buttons (p01 sub-scenes) and kitchen cards (p02)
   FIX: All existing: SM watchdog, debounce, retry, consistency, walkIn pre-trans, sub-TL flush
 -->
-<script>
 (function(){
 'use strict';
 
@@ -1057,4 +1056,3 @@ document.readyState==='loading'
   : boot();
 
 })();
-</script>
