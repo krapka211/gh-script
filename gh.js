@@ -1,17 +1,3 @@
-<!-- GOLD & HOME v8.0
-  FIX: CFG exposes all transition/menu timing — tweak without touching logic
-  FIX: Trans.run uses CFG values (slower, cinematic defaults)
-  FIX: Menu is a FULL SCENE — Trans.run exits/enters it; _prevPageEl restores on plain close
-  FIX: menuIntro hero talk ("Excellent!…") plays on EVERY menu open (utility + narrative)
-  FIX: Hamburger OPEN → pointOut if pointing → open menu
-       Hamburger CLOSE → instant close, NO pointOut ever
-  FIX: Menu nav buttons → Hero.pointOutThen() before navigating (pointingLeftOut now visible)
-  FIX: Menu inactivity → auto-navigate to page01 after CFG.menuInactivitySec
-  FIX: CTA on page04 → only opens contact form, no re-transition black flash
-  FIX: Wood modals — teleport only sets display/visibility; CSS handles position (like contact)
-  FIX: Stagger animations on wood buttons (p01 sub-scenes) and kitchen cards (p02)
-  FIX: All existing: SM watchdog, debounce, retry, consistency, walkIn pre-trans, sub-TL flush
--->
 
 (function(){
 'use strict';
